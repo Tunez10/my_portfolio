@@ -6,7 +6,7 @@ export default function Resume() {
         
         <div className='flex flex-col text-center my-10'>
             <p className='font-bold text-3xl py-5 underline underline-offset-[20px] decoration-teal-600'>Resume</p>
-            <p className='text-gray-500 mt-5'>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <p className='text-gray-500 mt-5'>Know a little about me</p>
         </div>
 
         <div className='md:flex gap-10'>
