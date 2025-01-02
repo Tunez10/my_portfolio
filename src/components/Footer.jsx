@@ -15,11 +15,11 @@ export default function Footer() {
             <i className='pi pi-facebook text-xl rounded-full border border-gray-300 p-3 text-gray-300 hover:border-white hover:text-white hover:cursor-pointer'></i>
           </a>
 
-          <a href="https://www.instagram.com/khenzy_official/?text=Hello!" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/khenzy_official/?text=Hello, i would like to get more info" target="_blank" rel="noopener noreferrer">
             <i className='pi pi-instagram text-xl rounded-full border border-gray-300 p-3 text-gray-300 hover:border-white hover:text-white hover:cursor-pointer'></i>
           </a>
 
-          <a href="https://wa.me/2348142852472?text=Hello!" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/2348142852472?text=Hello, i would like to get more info" target="_blank" rel="noopener noreferrer">
             <i className='pi pi-whatsapp text-xl rounded-full border border-gray-300 p-3 text-gray-300 hover:border-white hover:text-white hover:cursor-pointer'></i>
           </a>
 
