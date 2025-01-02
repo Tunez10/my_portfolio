@@ -22,9 +22,9 @@ export default function Services() {
           <p className='mt-10 text-center'>What type of website would you want to consider</p>
       </div>
 
-      <div className='gap-10'>
+      <div className='flex flex-col lg:gap-20 gap-10 mt-10'>
         {services.map((item)=> (
-          <div className=' lg:flex gap-5 md:mt-20 mt-10'>
+          <div className=' lg:flex gap-5 mt-'>
             <div className=''>
               <img className='w-full md:h-[50vh] bg-no-repeat rounded-xl' src={item.image} alt="" />
             </div>
@@ -32,7 +32,7 @@ export default function Services() {
             <div className='lg:w-[80%]'>
               <p className='font-bold text-2xl pt-5 lg:pt-0'>{item.heading}</p>
               <p className='py-3'>{item.text}</p>
-              <p className='py-3'>{item.text2}</p>
+              <p className=''>{item.text2}</p>
               {/* <p className='py-3'>{item.text3}</p> */}
               
             </div>
