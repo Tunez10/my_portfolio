@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
 
   return (
-    <div className='md:mt-20 mt-10 bg-teal-600 text-white text-center py-10'>
+    <div className='md:mt-20 mt-10 bg-teal-700 text-white text-center py-10'>
         <div>
             <i></i>
             <p>Copyright <span className='font-bold text-lg'>Tunez</span> All right reserved</p>
@@ -11,9 +11,7 @@ export default function Footer() {
 
         <div className='flex justify-center gap-5 my-5'>
 
-          <a href="#">
-            <i className='pi pi-facebook text-xl rounded-full border border-gray-300 p-3 text-gray-300 hover:border-white hover:text-white hover:cursor-pointer'></i>
-          </a>
+        
 
           <a href="https://www.instagram.com/khenzy_official/?text=Hello, i would like to get more info" target="_blank" rel="noopener noreferrer">
             <i className='pi pi-instagram text-xl rounded-full border border-gray-300 p-3 text-gray-300 hover:border-white hover:text-white hover:cursor-pointer'></i>
@@ -23,11 +21,8 @@ export default function Footer() {
             <i className='pi pi-whatsapp text-xl rounded-full border border-gray-300 p-3 text-gray-300 hover:border-white hover:text-white hover:cursor-pointer'></i>
           </a>
 
-          <a href="#">
-            <i className='pi pi-twitter text-xl rounded-full border border-gray-300 p-3 text-gray-300 hover:border-white hover:text-white hover:cursor-pointer'></i>
-          </a>
 
-          <a href="#">
+          <a href="https://www.linkedin.com/in/tunez/" target='_blank' rel="noopener noreferrer">
             <i className='pi pi-linkedin text-xl rounded-full border border-gray-300 p-3 text-gray-300 hover:border-white hover:text-white hover:cursor-pointer'></i>
           </a>
 
