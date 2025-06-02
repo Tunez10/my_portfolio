@@ -7,7 +7,7 @@ export default function Hero() {
 
 
 const [text] = useTypewriter({
-  words:['full stack web developer', 'freelancer'],
+  words:['web developer', 'freelancer'],
   loop:{}
 })    
   return (
