@@ -22,7 +22,7 @@ export default function Services() {
           <p className='mt-10 text-center'>What type of website would you want to consider</p>
       </div>
 
-      <div className='flex flex-col lg:gap-20 gap-10 mt-10'>
+      <div className='flex flex-col lg:gap-20 gap-10 mt-10 text-sm'>
         {services.map((item)=> (
           <div className=' lg:flex gap-5 mt-'>
             <div className=''>

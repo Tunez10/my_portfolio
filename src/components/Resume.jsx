@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Resume() {
   return (
-    <div className='lg:mx-48 mx-5 md:px-10'>
+    <div className='text-sm lg:mx-48 mx-5 md:px-10'>
         
         <div className='flex flex-col text-center my-10'>
             <p className='font-bold text-3xl py-5 underline underline-offset-[20px] decoration-teal-600'>Resume</p>

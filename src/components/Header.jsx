@@ -20,7 +20,7 @@ export default function Header() {
         
 
       {/* header for big screen */}
-      <div className='md:flex justify-between align-middle items-center lg:px-48 md:px-10 h-[12vh] fixed left-0 right-0  bg-black hidden z-10 '>
+      <div className='text-sm md:flex justify-between align-middle items-center lg:px-48 md:px-10 h-[12vh] fixed left-0 right-0  bg-black hidden z-10 '>
         <h2 className="font-bold text-3xl text-teal-600 hover:cursor-pointer"><a href="/">Tunez</a></h2>
         <ul className=" hidden md:flex gap-5 text-white ">
 
