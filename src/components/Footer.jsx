@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
 
   return (
-    <div className='md:mt-20 mt-10 bg-teal-700 text-white text-center py-10'>
+    <div id='footer' className='md:mt-20 mt-10 bg-teal-800 text-white text-center py-10'>
         <div>
             <i></i>
             <p>Copyright <span className='font-bold text-lg'>Tunez</span> All right reserved</p>

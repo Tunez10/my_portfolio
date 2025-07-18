@@ -26,7 +26,7 @@ export default function Services() {
         {services.map((item)=> (
           <div className=' lg:flex gap-5 mt-'>
             <div className=''>
-              <img className='w-full md:h-[50vh] bg-no-repeat rounded-xl' src={item.image} alt="" />
+              <img className='w-full md:h-[40vh] bg-no-repeat rounded-xl' src={item.image} alt="" />
             </div>
 
             <div className='lg:w-[80%]'>

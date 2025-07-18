@@ -41,7 +41,7 @@ export default function Header() {
             <li className="hover:cursor-pointer hover:border px-3 py-2 rounded-lg border-teal-600">Portfolio </li>
           </a>
 
-          <a href="#contact">
+          <a href="#footer">
             <li className="hover:cursor-pointer hover:border px-3 py-2 rounded-lg border-teal-600">Contact</li>
           </a>
 
