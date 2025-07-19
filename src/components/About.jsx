@@ -15,9 +15,9 @@ export default function About() {
         {/* The left section */}
         <div className='lg:w-[50%] '>
 
-          <div className='md:flex gap-5'>
+          <div className='flex gap-5'>
             <div>
-              <img className='h-[400px] bg-cover lg:h-[200px] w-full rounded-xl shadow-xl bg-no-repeat' src={AboutImage} alt="" />
+              <img className='h-[200px] bg-cover lg:h-[200px] lg:w-full rounded-xl shadow-xl bg-no-repeat' src={AboutImage} alt="" />
             </div>
             <div className='flex flex-col gap-5 mt-5'>
               <p className=' font-semibold'>Name: <span className='text-gray-500'>Fortune Peter</span></p>
@@ -27,7 +27,7 @@ export default function About() {
           </div>
 
           {/* Skills */}
-          <div className='py-1'>
+          {/* <div className='py-1'>
             <p className=' font-bold text-xl mt-10'>SKILLS</p>
             <div className='flex justify-between'>
               <div className='flex flex-col gap-3 mt-3'>
@@ -45,7 +45,30 @@ export default function About() {
                 <p>60%</p>
               </div>
             </div>
+          </div> */}
+
+          <div className='flex items-center justify-between mt-10  flex-wrap'>
+            <article className="p-4 border border-gray-200 rounded-lg shadow text-center hover:shadow-teal-500">
+              <i className="pi pi-briefcase text-3xl text-teal-600 mb-2"></i>
+              <h5 className="text-lg font-semibold mb-1">Experience</h5>
+              <small className="text-gray-500">2 Years Working</small>
+            </article>
+
+            <article className='p-4 border border-gray-200 rounded-lg shadow text-center hover:shadow-teal-500'>
+              <i className="pi pi-users text-3xl text-teal-600 mb-2"></i>
+              <h5 className="text-lg font-semibold mb-1">clients</h5>
+              <small className="text-gray-500">5+ Worldwide</small>
+            </article>
+
+            <article className='p-4 border border-gray-200 rounded-lg shadow text-center hover:shadow-teal-500'>
+              <i className="pi pi-folder-open text-3xl text-teal-600 mb-2"></i>
+              <h5 className="text-lg font-semibold mb-1">Projects</h5>
+              <small className="text-gray-500">10+ completed</small>
+            </article>
+
           </div>
+
+        
         </div>
 
         {/* The right Section */}
@@ -53,9 +76,9 @@ export default function About() {
           <div>
             <p className='font-bold text-3xl underline decoration-teal-600 underline-offset-[20px]'>About me</p>
             <div className='flex flex-col gap-2 mt-10 lg:text-sm'>
-              <p>I am a Full Stack Web Developer with JavaScript, Python and their frameworks – React, Django. Developed few websites from scratch, Very hardworking and smart. Working with a sense of creative thinking in delivering tasks..</p>
-              <p>I am proficient in managing tasks and adhering to deadlines while working a flexible schedule. Motivated, adaptable and responsible person seeking to work in any organization which will utilize the skills developed through past working experience. </p>
-              <p>I am seeking opportunity to leverage front-end and back-end skills while increasing customer engagement. I have a disciplined, customer-focus approach to work, and the drive to see things through completion.</p>
+              <p>I am a result-driven and highly skilled Software Developer with 2 years of experience, driven by a passion for pushing technology boundaries.</p>
+              <p> I specialize in building high-performance, scalable, and user-friendly applications using React and Ruby on Rails, with additional experience in Django.</p>
+              <p>I have a proven track record of collaborating with diverse teams to take software from concept to production. I thrive in fast-paced environments, adapt quickly to new technologies, and bring a creative, customer-focused mindset to every project.</p>
             </div>
           </div>
 
