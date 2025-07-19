@@ -47,20 +47,20 @@ export default function About() {
             </div>
           </div> */}
 
-          <div className='flex items-center justify-between mt-10  flex-wrap'>
-            <article className="p-4 border border-gray-200 rounded-lg shadow text-center hover:shadow-teal-500">
+          <div className='flex items-center lg:justify-between gap-2 mt-10  flex-wrap'>
+            <article className="p-3 border border-gray-200 rounded-lg shadow text-center hover:shadow-teal-500">
               <i className="pi pi-briefcase text-3xl text-teal-600 mb-2"></i>
               <h5 className="text-lg font-semibold mb-1">Experience</h5>
               <small className="text-gray-500">2 Years Working</small>
             </article>
 
-            <article className='p-4 border border-gray-200 rounded-lg shadow text-center hover:shadow-teal-500'>
+            <article className='p-3 border border-gray-200 rounded-lg shadow text-center hover:shadow-teal-500'>
               <i className="pi pi-users text-3xl text-teal-600 mb-2"></i>
               <h5 className="text-lg font-semibold mb-1">clients</h5>
               <small className="text-gray-500">5+ Worldwide</small>
             </article>
 
-            <article className='p-4 border border-gray-200 rounded-lg shadow text-center hover:shadow-teal-500'>
+            <article className='p-3 border border-gray-200 rounded-lg shadow text-center hover:shadow-teal-500'>
               <i className="pi pi-folder-open text-3xl text-teal-600 mb-2"></i>
               <h5 className="text-lg font-semibold mb-1">Projects</h5>
               <small className="text-gray-500">10+ completed</small>
